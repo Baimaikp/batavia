@@ -9,7 +9,7 @@ with io.open('README.rst', encoding='utf8') as readme:
 with io.open('package.json', encoding='utf8') as package:
     data = json.load(package)
 
-
+#Settest
 setup(
     name='batavia',
     version=data['version'].replace('dev.', 'dev'),
